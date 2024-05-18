@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header id="header-unique">
+        <h1>Programacion Visual</h1>
+        <nav class="nav-menu">
+            <ol>
+                <li><a class="nav-link" href="index">Inicio</a></li>
+                <li><a class="nav-link" href="#">Caracteristicas</a></li>
+                <li><a class="nav-link" href="#">Recursos</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="content-section">
+            <h2 class="section-title">Formulario de Datos</h2>
+            <form>
+                <label for="dni">DNI</label>
+                <input id="dni" type="number" required placeholder="Ingrese el DNI"> <br>
+                <label for="nombres">Nombres: </label>
+                <input id="nombres" type="text" required placeholder="Ingrese sus Nombres"> <br>
+                <label for="apellidos">Apellidos: </label>
+                <input id="apellidos" type="text" required placeholder="Ingrese sus Apellidos"> <br>
+                <label for="fechaNacimiento">Fecha de Nacimiento: </label>
+                <input id="fechaNacimiento" type="date" required placeholder="Ingrese su Fecha de Nacimiento"> <br>
+                <div>
+                    <label for="generoM">Masculino: </label>
+                    <input id="generoM" type="radio" value="Masculino" name="genero"> <br>
+                    <label for="generoF">Femenino: </label>
+                    <input id="generoF" type="radio" value="Femenino" name="genero"> <br>
+                    <label for="generoX">X: </label>
+                    <input id="generoX" type="radio" value="X" name="genero"> <br>
+                </div>
+                <label for="correoElectronico">Correo electronico:</label>
+                <input id="correoElectronico" type="email" required placeholder="Ingrese su email" name="correoElectronico"> <br> <br>
+                <label for="domicilio">Domicilio:</label>
+                <input id="domicilio" type="text" required placeholder="Ingrese el domicilio" name="domicilio"> <br> <br>
+                <label for="provincia">Provincia:</label>
+                <select id="provincia" name="provincia">
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="Salta">Salta</option>
+                    <option value="Tucuman">Tucuman</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Misiones">Misiones</option>
+                </select> <br> <br>
+                <label for="celular">Numero de celular:</label>
+                <input id="celular" type="number" placeholder="Ingrese el numero de celular" name="celular"> <br> <br>
+                <label>Categorias de interes:</label>
+                <div class="genero">
+                    <label for="intereses-futbol">Futbol:</label>
+                    <input id="intereses-futbol" type="checkbox" name="intereses"> <br>
+                    <label for="intereses-turismo">Turismo:</label>
+                    <input id="intereses-turismo" type="checkbox" name="intereses"> <br>
+                    <label for="intereses-gastronomia">Gastronomia:</label>
+                    <input id="intereses-gastronomia" type="checkbox" name="intereses"> <br>
+                </div> <br> <br>
+                <label for="sugerencias">Sugerencias:</label> <br> <br>
+                <textarea id="sugerencias" placeholder="Ingrese un comentario" name="sugerencias" rows="8" cols="40"></textarea> <br> <br>
+                <label for="password">Password:</label>
+                <input id="password" type="password" required placeholder="Ingrese el password" name="password" maxlength="10" minlength="4"> <br> <br>
+                <label for="passwordDenuevo">Password nuevamente:</label>
+                <input id="passwordDenuevo" type="password" required placeholder="Password nuevamente" name="passwordDenuevo" maxlength="10" minlength="4"> <br> <br>
+                <label for="tc">Acepto los terminos y condiciones:</label>
+                <input id="tc" type="checkbox" required name="tc"> <br> <br>
+                <label for="infoRelativa">Acepto recibir informacion relativa a la empresa:</label>
+                <input id="infoRelativa" type="checkbox" required name="infoRelativa"> <br> <br>
+                <input type="button" value="Cancelar">
+                <input type="submit" value="Guardar">
+            </form>
+        </section>
+    </main>
+    <footer id="footer-unique">
+        <h3 class="section-title">Informacion de contacto</h3>
+        <p class="footer-paragraph">Correo electronico: nahuelvilt@gmail.com</p>
+        <p class="footer-paragraph">Pagina hecha por: Vilte Daniel Nahuel</p>
+        <p class="footer-paragraph">Redes sociales:
+            <br>
+            <a class="footer-link" href="https://www.youtube.com">YouTube</a> <br>
+            <a class="footer-link" href="https://github.com/Spark46">Github</a>
+        </p>
+    </footer>
+</body>
+</html>

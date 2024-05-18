@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* Encabezado */
+#header-unique {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#header-unique h1 {
+    margin: 0;
+}
+
+/* Menú de navegación */
+.nav-menu {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu ul li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.section-title {
+    color: dark;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section-paragraph {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.section-list {
+    margin-bottom: 15px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.section-table th,
+.section-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.section-table th {
+    background-color: #f2f2f2;
+}
+
+/* Contenido adicional */
+.additional-content {
+    padding: 20px;
+    background-color: gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.additional-link {
+    display: block;
+    color: #4CAF50;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.additional-link:hover {
+    text-decoration: underline;
+}
+
+.additional-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-paragraph {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.footer-link {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
